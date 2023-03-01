@@ -45,8 +45,7 @@ ul {
     height: calc(100vh - 80px);
 }
 
-.sidebar {
-    height: 100%;
+.sidebar {height: 100%;
     width: 160px;
 }
 
@@ -76,3 +75,13 @@ ul {
         width: fit-content;
     }
 }
+/* JUMBOTRON */
+.text_white {
+    color: white;
+}
+
+.jumbotron {
+    background-color: var(--ref-tertiary);
+}
+
+/* Offcanvas */
