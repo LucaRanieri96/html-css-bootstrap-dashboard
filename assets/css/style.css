@@ -70,11 +70,8 @@ ul {
     color: var(--ref-light);
 }
 
-@media screen and (max-width: 767.98px) {
-    .sidebar {
-        width: fit-content;
-    }
-}
+
+
 /* JUMBOTRON */
 .text_white {
     color: white;
@@ -85,3 +82,17 @@ ul {
 }
 
 /* Offcanvas */
+.w_100 {
+    width: 50% !important;
+}
+
+
+@media screen and (max-width: 767.98px) {
+    .sidebar {
+        width: fit-content;
+    }
+
+    .w_100 {
+        width: 100% !important;
+    }
+}
