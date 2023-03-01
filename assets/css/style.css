@@ -1,0 +1,15 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+    --ref-primary: #1abc9c;
+    --ref-secondary: #2c3e50;
+    --ref-light: white;
+    --ref-dark: black;
+    --ref-tertiary: #3a546d;
+}
