@@ -25,21 +25,34 @@ img {
 .debug .top {
     border: 1px dashed;
 }
+/* End DEBUG */
 
+/* STRUCTURE */
 .top {
-    height: 50px;
+    height: 80px;
+    background-color: var(--ref-main);
+}
+.app_header {
+    background-color: var(--ref-light);
+    width: 100%;
 }
 
 .bottom {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 80px);
 }
 
 .sidebar {
     height: 100%;
-    width: 100px;
+    width: 160px;
 }
 
 .app_main {
     height: 100%;
-    width: calc(100% - 100px);
+    width: calc(100% - 160px);
+}
+
+/* UTILITIES */
+/* HEADER */
+.top img {
+    width: 150px;
 }
