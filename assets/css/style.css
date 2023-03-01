@@ -86,7 +86,6 @@ ul {
     width: 50% !important;
 }
 
-
 @media screen and (max-width: 767.98px) {
     .sidebar {
         width: fit-content;
