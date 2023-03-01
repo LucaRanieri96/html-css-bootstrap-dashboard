@@ -38,6 +38,7 @@ ul {
 }
 .app_header { 
     width: 100%;
+    background-color: white;
 }
 
 .bottom {
@@ -50,7 +51,6 @@ ul {
 }
 
 .app_main {
-    height: 100%;
     width: calc(100% - 160px);
 }
 
