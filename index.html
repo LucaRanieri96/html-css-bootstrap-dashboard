@@ -26,8 +26,8 @@
             <header id="app_header" class="container-fluid">
 
                 <div class="row align-items-center">
-                    <div class="col-2 h-100">
-                        <img class="d-block d-md-none" src="./assets/img/mobile-logo.png" alt="">
+                    <div class="col col-md-2">
+                        <img class="d-block d-md-none width_mobile" src="./assets/img/mobile-logo.png" alt="">
                         <img class="d-none d-md-block" src="./assets/img/logo.svg" alt="">
                     </div>
                     <div class="col-8">
@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-2">
                         <div class="d-flex align-items-center justify-content-end">
-                            <div class="d-none d-xl-inline me-2 text-nowrap">
+                            <div class="d-none d-md-inline me-2 text-nowrap">
                                 <i class="fa-solid fa-list-ul fa-fw"></i>
                                 <i class="fa-solid fa-circle-question fa-fw
                                     mx-2"></i>
@@ -67,10 +67,32 @@
                 </div>
 
             </div>
-
             <!-- /.app_header -->
+
             <div class="bottom">
-                <div class="sidebar"></div>
+                <div class="sidebar d-flex flex-column justify-content-between">
+                    <div>
+                        <ul class="p-4">
+                            <li>
+                                <i class="fa fa-home pe-2 mb-4" aria-hidden="true"></i>
+                                <span class="d-none d-md-inline-block"><strong>Home</strong></span>
+                                
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-chart-simple pe-2 mb-4"></i>
+                                <span class="d-none d-md-inline-block"><strong>Stats</strong></span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-signal pe-2 mb-4"></i>
+                                <span class="d-none d-md-inline-block"><strong>Signals</strong></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-4">
+                        <i class="fa-sharp fa-solid fa-gear pe-2 mb-4"></i>
+                        <span class="d-none d-md-inline-block"><strong>Admin</strong></span>
+                    </div>
+                </div>
                 <div class="app_main"></div>
             </div>
             <!-- /.app_main -->

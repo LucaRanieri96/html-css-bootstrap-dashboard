@@ -18,6 +18,10 @@ html {
 img {
     max-width: 100%;
 }
+
+ul {
+    list-style-type: none;
+}
 /* DEBUG */
 .debug .app_main,
 .debug .sidebar,
@@ -52,4 +56,23 @@ img {
 
 /* UTILITIES */
 /* HEADER */
+.width_mobile {
+    width: 50px;
+}
+/* SIDEBAR */
+.sidebar {
+    background-image: url("../img/sidebar-bg.png");
+    background-repeat: no-repeat;
+    background-color: #051e34;
+    fill-opacity: 0.5;
+}
 
+.sidebar {
+    color: var(--ref-light);
+}
+
+@media screen and (max-width: 767.98px) {
+    .sidebar {
+        width: fit-content;
+    }
+}
