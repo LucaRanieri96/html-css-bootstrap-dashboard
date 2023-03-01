@@ -15,3 +15,31 @@ html {
     --ref-details: #f26551;
     --ref-search: #e5e5e5;
 }
+img {
+    max-width: 100%;
+}
+/* DEBUG */
+.debug .app_main,
+.debug .sidebar,
+.debug .bottom,
+.debug .top {
+    border: 1px dashed;
+}
+
+.top {
+    height: 50px;
+}
+
+.bottom {
+    height: calc(100vh - 50px);
+}
+
+.sidebar {
+    height: 100%;
+    width: 100px;
+}
+
+.app_main {
+    height: 100%;
+    width: calc(100% - 100px);
+}
