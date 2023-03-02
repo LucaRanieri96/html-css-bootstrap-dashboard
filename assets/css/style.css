@@ -22,13 +22,25 @@ img {
 ul {
     list-style-type: none;
 }
+
+li:hover {
+    cursor: pointer;
+}
 /* DEBUG */
-.debug .app_main,
+/* .debug .app_main,
 .debug .sidebar,
 .debug .bottom,
 .debug .top {
     border: 1px dashed;
+} */
+
+.debug .col-8,
+.debug .col-4, 
+.debug .row {
+    border: 1px dashed;
+    height: 100vh;
 }
+
 /* End DEBUG */
 
 /* STRUCTURE */
