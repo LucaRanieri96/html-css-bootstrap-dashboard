@@ -57,10 +57,6 @@ li:hover {
     height: calc(100vh - 80px);
 }
 
-.sidebar {height: 100%;
-    width: 160px;
-}
-
 .app_main {
     flex-grow: 1;
 }
@@ -70,16 +66,18 @@ li:hover {
 .width_mobile {
     width: 50px;
 }
+ .fa-bell {
+    color: rgb(232, 182, 0);
+ }
 /* SIDEBAR */
 .sidebar {
     background-image: url("../img/sidebar-bg.png");
     background-repeat: no-repeat;
     background-color: #051e34;
     fill-opacity: 0.5;
-}
-
-.sidebar {
     color: var(--ref-light);
+    height: 100%;
+    width: 280px;
 }
 
 
@@ -92,6 +90,9 @@ li:hover {
 .jumbotron {
     background-color: var(--ref-tertiary);
 }
+ #add_button {
+    border: 1px solid white;
+ }
 /* MAIN */
 
 /* TABLE */
