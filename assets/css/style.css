@@ -92,6 +92,21 @@ li:hover {
 .jumbotron {
     background-color: var(--ref-tertiary);
 }
+/* MAIN */
+
+/* TABLE */
+.bg_code {
+    padding: 10px;
+    background-color: var(--ref-details);
+    border-radius: 50%;
+}
+.fa-pen,
+.fa-trash {
+    border: 1px solid rgb(139, 139, 139);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(139, 139, 139);
+}
 
 /* Offcanvas */
 .w_100 {
