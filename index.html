@@ -31,10 +31,10 @@
         </div>
         <div class="col-8">
           <div class="input-group">
-            <span class="input-group-text px-1" id="search">
+            <span class="input-group-text px-1 ps-2 bg_dark" id="search">
               <i class="fa-solid fa-magnifying-glass fa-fw"></i>
             </span>
-            <input type="search" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel"
+            <input type="search" class="form-control bg_dark border-start-0" placeholder="Prova a cercare: Lezioni di Laravel"
               aria-label="Username" aria-describedby="search">
           </div>
         </div>
@@ -283,9 +283,12 @@
                       <table class="table">
                         <thead>
                           <tr>
-                            <th class="col-7" scope="col">Nome</th>
-                            <th class="col-2 text-center" scope="col">Data inizio</th>
-                            <th class="col text-center" scope="col">ROI</th>
+                            <th class="col-6" scope="col">Nome</th>
+                            <div class="d-none d-sm-block">
+                              <th class="col text-center" scope="col">Data inizio</th>
+                              <th class="col text-center" scope="col">ROI</th>
+                            </div>
+
                             <th class="col text-center" scope="col">Stato</th>
                             <th class="col text-center" scope="col">Azioni</th>
                           </tr>
