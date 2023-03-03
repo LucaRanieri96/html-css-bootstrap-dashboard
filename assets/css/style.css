@@ -29,6 +29,25 @@ li:hover {
   cursor: pointer;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(171, 171, 171);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(130, 130, 130);
+}
+
 /* DEBUG */
 /* .debug .app_main,
 .debug .sidebar,
