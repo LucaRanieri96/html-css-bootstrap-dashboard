@@ -119,12 +119,15 @@ li:hover {
 
 /* Offcanvas */
 .w_100 {
-  width: 50% !important;
+  width: 100% !important;
 }
 
 @media screen and (min-width: 991.98px) {
   
     .sidebar {
     min-width: 130px !important;
+  }
+  .w_100 {
+    width: 50% !important;
   }
 }
