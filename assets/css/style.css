@@ -1,3 +1,5 @@
+/* COMMON */
+
 html {
   font-family: "Montserrat", sans-serif;
   font-family: "Nunito Sans", sans-serif;
@@ -26,6 +28,7 @@ ul {
 li:hover {
   cursor: pointer;
 }
+
 /* DEBUG */
 /* .debug .app_main,
 .debug .sidebar,
@@ -34,12 +37,12 @@ li:hover {
     border: 1px dashed;
 } */
 
-.debug .col-8,
+/* .debug .col-8,
 .debug .col-4,
 .debug .row {
   border: 1px dashed;
   height: 100vh;
-}
+} */
 
 /* End DEBUG */
 
@@ -90,6 +93,7 @@ li:hover {
   width: 30px;
 }
 
+/* MAIN */
 /* JUMBOTRON */
 .text_white {
   color: white;
@@ -101,7 +105,6 @@ li:hover {
 #add_button {
   border: 1px solid white;
 }
-/* MAIN */
 
 /* TABLE */
 .bg_code {
@@ -125,12 +128,14 @@ li:hover {
 .w_100 {
   width: 100% !important;
 }
+ /* MEDIA QUERY */
 
 @media screen and (min-width: 768px) {
   .col_50 {
     width: 50%;
   }
 }
+
 @media screen and (min-width: 991.98px) {
   .sidebar {
     min-width: 130px !important;
