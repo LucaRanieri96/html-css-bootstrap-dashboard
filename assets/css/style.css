@@ -112,9 +112,13 @@ li:hover {
 .fa-pen,
 .fa-trash {
   border: 1px solid rgb(139, 139, 139);
-  padding: 10px;
+  padding: 6px;
   border-radius: 5px;
   color: rgb(139, 139, 139);
+}
+
+.col_50 {
+  width: calc(100% / 3);
 }
 
 /* Offcanvas */
@@ -122,9 +126,13 @@ li:hover {
   width: 100% !important;
 }
 
+@media screen and (min-width: 768px) {
+  .col_50 {
+    width: 50%;
+  }
+}
 @media screen and (min-width: 991.98px) {
-  
-    .sidebar {
+  .sidebar {
     min-width: 130px !important;
   }
   .w_100 {
